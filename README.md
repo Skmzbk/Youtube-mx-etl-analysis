@@ -67,7 +67,7 @@
 
 <h2>📁 Data Source</h2>
 <p>
-  Data collected from the <a href="https://developers.google.com/youtube/v3" target="_blank">YouTube Data API v3</a> and publicly available CSV datasets for Mexican YouTube statistics.
+  Data collected from the <a href="https://www.kaggle.com/datasets/datasnaek/youtube-new" target="_blank">Kaggle.com</a> and publicly available CSV datasets for Mexican YouTube statistics.
 </p>
 
 <h2>📄 License</h2>
