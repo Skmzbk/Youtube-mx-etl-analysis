@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/youtube_mx_dashboard.png" alt="YouTube MX ETL Dashboard Screenshot" width="800">
+  <img src="Dashboard.png" alt="YouTube MX ETL Dashboard Screenshot" width="800">
 </p>
 
 <h2>📄 Project Overview</h2>
@@ -18,7 +18,7 @@
 
 <h2>⚙️ Workflow</h2>
 <ol>
-  <li><b>Extract:</b> Data pulled from YouTube API and CSV datasets containing video metrics, channel info, views, likes, comments, and publication dates.</li>
+  <li><b>Extract:</b> Data pulled from Kaggle containing video metrics, channel info, views, likes, comments, and publication dates.</li>
   <li><b>Transform:</b> Performed in Python using pandas and Jupyter Notebook:
     <ul>
       <li>Data cleaning: remove duplicates, handle missing values, standardize formats.</li>
@@ -26,7 +26,7 @@
       <li>Aggregated data by channel, category, and date for comparative analysis.</li>
     </ul>
   </li>
-  <li><b>Load & Visualize:</b> Imported cleaned data into Power BI / Excel:
+  <li><b>Load & Visualize:</b> Imported cleaned data into Power BI :
     <ul>
       <li>Interactive dashboards with top channels, top videos, and engagement trends.</li>
       <li>Filters for category, upload date, and popularity metrics.</li>
@@ -40,7 +40,7 @@
   <li><code>notebooks/</code> — Jupyter Notebook(s) with ETL code (<code>youtube_mx_etl.ipynb</code>).</li>
   <li><code>data/</code> — Cleaned CSV datasets ready for visualization (<code>youtube_mx_clean.csv</code>).</li>
   <li><code>powerbi/</code> — Power BI dashboard file (<code>.pbix</code>) or Excel dashboards.</li>
-  <li><code>assets/</code> — Screenshots of dashboards (<code>youtube_mx_dashboard.png</code>).</li>
+  <li><code>assets/</code> — Screenshots of dashboard (<code>youtube_mx_dashboard.png</code>).</li>
 </ul>
 
 <h2>🔎 Key Insights & Features</h2>
@@ -54,16 +54,10 @@
 <h2>🛠️ How to Reproduce</h2>
 <ol>
   <li>Install dependencies (Python 3.x, pandas, requests, Jupyter Notebook).</li>
-  <li>Run <code>youtube_mx_etl.ipynb</code> to extract, transform, and save cleaned datasets.</li>
-  <li>Load the CSV into Power BI or Excel to recreate the dashboard visuals.</li>
+  <li>Run <code>ipynb</code> to extract, transform, and save cleaned datasets.</li>
+  <li>Load the CSV into Power BI to recreate the dashboard visuals.</li>
 </ol>
 
-<!--<h2>📸 Suggested Screenshots</h2>
-<ul>
-  <li>Overall dashboard showing top channels and engagement metrics.</li>
-  <li>Comparison charts for video categories.</li>
-  <li>Temporal trends of uploads and engagement over time.</li>
-</ul>-->
 
 <h2>📁 Data Source</h2>
 <p>
